@@ -1,0 +1,157 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: info_about_forsby_small_stool
+  examples: |
+    - what is expected time of the forsby small stool
+    - how many colours are available for forsby small stool
+    - expected delivery time for forsby small stool
+    - when will forsby small stool will arrive
+    - colours forsby small stool
+    - delivery time forsby small stool
+    - how many warrenty does i get with forsby small stool 
+    - warrenty period for forsby small stool
+
+- intent: info_about_hopen_bedside_table
+  examples: |
+    - what is expected time of the hopen bedside table
+    - how many colours are available for hopen bedside table
+    - expected delivery time for hopen bedside table
+    - when will hopen bedside table will arrive
+    - colours hopen bedside table
+    - delivery time hopen bedside table
+    - how many warrenty does i get with hopen bedside table 
+    - warrenty period for hopen bedside table
+
+- intent: info_about_Lack_black_table
+  examples: |
+    - what is expected time of the Lack black table
+    - how many colours are available for Lack black table
+    - expected delivery time for Lack black table
+    - when will Lack black table will arrive
+    - colours Lack black table
+    - delivery time Lack black table
+    - how many warrenty does i get with Lack black table 
+    - warrenty period for Lack black table
+
+- intent: info_about_rodd_ekas_floor_lamp
+  examples: |
+    - what is expected time of the rodd ekas floor lamp
+    - how many colours are available for rodd ekas floor lamp
+    - expected delivery time for rodd ekas floor lamp
+    - when will rodd ekas floor lamp will arrive
+    - colours rodd ekas floor lamp
+    - delivery time rodd ekas floor lamp
+    - how many warrenty does i get with rodd ekas floor lamp 
+    - warrenty period for rodd ekas floor lamp
+
+- intent: info_about_hemnes_chest_of_drawers
+  examples: |
+    - what is expected time of the hemnes chest of drawers
+    - how many colours are available for hemnes chest of drawers
+    - expected delivery time for hemnes chest of drawers
+    - when will hemnes chest of drawers will arrive
+    - colours hemnes chest of drawers
+    - delivery time hemnes chest of drawers
+    - how many warrenty does i get with hemnes chest of drawers 
+    - warrenty period for hemnes chest of drawers
+
+- intent: all_products
+  examples: |
+    - tell me all product that are available
+    - list out all the product
+    - what are other product that are available
+    - all product
+    - give me information about all currently available products
+    - all different types of products available
+
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?

@@ -1,0 +1,77 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: forsby small stool
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: info_about_forsby_small_stool
+    - action: utter_info_about_forsby_small_stool
+    - action: utter_did_that_help
+
+- story: hopen bedside table
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: info_about_hopen_bedside_table
+    - action: utter_info_about_hopen_bedside_table
+    - action: utter_did_that_help
+
+- story: Lack black table
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: info_about_Lack_black_table
+    - action: utter_info_about_Lack_black_table
+    - action: utter_did_that_help
+
+- story: rodd ekas floor lamp
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: info_about_rodd_ekas_floor_lamp
+    - action: utter_info_about_rodd_ekas_floor_lamp
+    - action: utter_did_that_help
+
+- story: hemnes chest of drawers
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: info_about_hemnes_chest_of_drawers
+    - action: utter_info_about_hemnes_chest_of_drawers
+    - action: utter_did_that_help
+
+- story: all products
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: all_products
+    - action: utter_info_about_all_products
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye

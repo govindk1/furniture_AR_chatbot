@@ -1,0 +1,66 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - info_about_forsby_small_stool
+  - info_about_hopen_bedside_table
+  - info_about_Lack_black_table
+  - info_about_rodd_ekas_floor_lamp
+  - info_about_hemnes_chest_of_drawers
+  - all_products
+
+action:
+  - utter_info_about_forsby_small_stool
+  - utter_info_about_hopen_bedside_table
+  - utter_info_about_Lack_black_table
+  - utter_info_about_rodd_ekas_floor_lamp
+  - utter_info_about_hemnes_chest_of_drawers
+  - utter_info_about_all_products
+
+responses:
+  utter_greet:
+  - text: "Hey! i am furnitureAr bot how can i assist you"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_info_about_forsby_small_stool:
+  - text: "The forsby stool comes with 3 years of warranty. it comes with three colours red, yellow, blue. The delivery time is within three days"
+
+  utter_info_about_hopen_bedside_table:
+  - text: "The hopen bedside table comes with 2 years of warranty. it is available only in brown colour. The delivery time is within three days"
+
+  utter_info_about_Lack_black_table:
+  - text: "The Lack black table comes with 1 years of warranty. it is available only in black and brown colour. The delivery time is within two days"
+
+  utter_info_about_rodd_ekas_floor_lamp:
+  - text: "The Rodd ekas floor lamp comes with 6 months of warranty. it is available only in white, black  colour. The delivery time is within two days"
+
+  utter_info_about_hemnes_chest_of_drawers:
+  - text: "The Hemnes chest of drawers comes with 3 years of warranty. it is available only in yellow colour. The delivery time is within two days"
+
+  utter_info_about_all_products:
+  - text: "forsby small stool, hopen bedside table, Lack black table, rodd ekas floor lamp, hemnes chest of drawers"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
